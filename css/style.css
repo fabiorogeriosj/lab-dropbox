@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html, body {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+.menu {
+    background-color: #394046;
+    min-width: 200px;
+    max-width: 200px;
+}
+.page {
+    background-color: red;
+    flex: 1;
+}
+.top {
+    height: 60px;
+}
+.white {
+    background-color: #fff;
+}
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+.logo h1 {
+    color: #0062ff;
+    font-size: 22px;
+}
+.flex {
+    display: flex;
+}
+.flex1 {
+    flex: 1;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+.info-user {
+    background-color: #34393d;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.info-user small {
+    color: rgba(255, 255, 255, 0.3);
+}
+.menu .items {
+    overflow-y: auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+.scrollbar-black::-webkit-scrollbar,
+.scrollbar-white::-webkit-scrollbar {
+	width: 8px;
+}
+.scrollbar-black::-webkit-scrollbar-thumb{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.scrollbar-white::-webkit-scrollbar-thumb{
+	background-color: rgba(0, 0, 0, 0.1);
+}
